@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+
+:root{
+  --main-color:rgb(0, 144, 193);
+  --text-color:rgba(0, 0, 0);
+  --text2-color:gray;
+  --font:'Roboto', sans-serif;
+}
+*{
+  padding:0;
+  margin: 0;
+  border: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  font-family: var(--font);
+}
+
+/* header style */
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  position:fixed;
+  top: 0;
+  right:0;
+  left: 0;
+  padding:0 5rem;
+  background:rgba(56, 174, 204, .5);
+  box-shadow:0 2px 2px rgb(56, 174, 204);
+}
+
+.logo{
+  color:var(--main-color);
+  font-weight:800;
+  font-size:.8rem;
+  font-family:var(--font);
+}
+nav{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin:1.3rem .8rem;
+}
+nav li a{
+  text-decoration: none;
+  font-weight: 600;
+  color:var(--text-color);
+}
+
+/*main style*/
+main{
+  margin-top: 5rem;
+}
+
+section{
+  padding:1rem 5rem;
+}
+
+/* Home */
+
+.home-img{
+  background-image: url(/Logobly/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 600px;
+}
+.section-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info{
+  width: 550px;
+  padding:1rem;
+}
+.info h1{
+  font-weight:800;
+  font-size: 3rem;
+}
+.info p{
+  font-weight: 400;
+  font-size: 1rem;
+  color:var(--text2-color);
+  margin:1.5rem 0rem;
+}
+.icon-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+  border: none;
+  border-radius: .1rem;
+  color: gray;
+  padding:0 1rem;
+  font-size: .7rem;
+  width: 20rem;
+  height: 3rem;
+  box-shadow: 0em .05em .12em var(--text2-color);
+  margin-right: 1rem;
+}
+button{
+  background-color: var(--main-color);
+  border: none;
+  padding: 1rem 1.3rem;
+  font-size: .85rem;
+  color: white;
+  font-weight: 500;
+  border-radius: .3rem;
+}
+.icon1{
+  background-image: url(/Logobly/clock.png);
+  width:95px;
+  height:95px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.icon2{
+  background-image: url(/Logobly/technical-support.png);
+  width:95px;
+  height:95px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.icon3{
+  background-image: url(/Logobly/rocket.png);
+  width:95px;
+  height:95px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+#icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#icons h2 {
+  margin: .75rem .5rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+#icons p {
+  margin: .5rem .5rem;
+  font-size: .9rem;
+  color: var(--text2-color);
+  width: 220px;
+}
+#About{
+  margin-top: 8rem;
+}
+#About .icon-div{
+  margin:8rem 0;
+}
+.about-img{
+  background-image: url(/Logobly/Home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 370px;
+}
+.icon4{
+  background-image: url(/Logobly/click.png);
+  width:95px;
+  height:95px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.icon5{
+  background-image: url(/Logobly/font.png);
+  width:95px;
+  height:95px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.icon6{
+  background-image: url(/Logobly/value.png);
+  width:95px;
+  height:95px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+#About-2{
+  margin-top: -7.5rem;
+}
+.about2-img{
+  background-image: url(/Logobly/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 600px;
+}
+
+
+
